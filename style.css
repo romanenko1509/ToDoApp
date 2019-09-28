@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap&subset=cyrillic');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Didact Gothic', sans-serif;
+  transition: all 0.5s ease;
+}
+
+ul,ol,li {
+  list-style: none;
+}
+
+h1 {
+  margin: 15px 0px;
+  text-align: center;
+}
+
+.container {
+  padding: 0px 5%;
+}
+
+.form_wrapper {
+  margin: 10px auto;
+  width: 350px;
+}
+
+.header {
+  position: relative;
+  width: 350px;
+  margin: 0 auto;
+}
+
+#refresh {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 34px;
+  cursor: pointer;
+}
+
+#form {
+  display: flex;
+}
+
+button {
+  min-width: 20%;
+  width: auto;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+#task {
+  width: 75%;
+  margin-right: 5%;
+  height: 15px;
+  padding: 10.5px;
+  border: 2px solid #000;
+  outline: none;
+  font-size: 20px;
+  background-color: transparent;
+  color: #000;
+}
+
+#tasks_wrapper {
+  margin: 10px auto;
+  width: 350px;
+}
+
+.task {
+  margin-bottom: 10px;
+  padding: 10px;
+  /*border: 1px solid #000;*/
+  cursor: pointer;
+  position: relative;
+  padding-right: 25%;
+}
+
+.task:hover {
+  box-shadow: 0 0 5px rgba(255,255,255,0.5);
+}
+
+.delTask {
+  background-color: #961b21;
+  color: #fff;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  width: 17%;
+  height: calc(100% - 10px);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.delTask:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid;
+}
